@@ -34,3 +34,4 @@ class ContactForm(forms.Form):
         # messageフィールドを出力する<input>タグのclass属性を設定
         self.fields['message'].widget.attrs['class'] = 'form-control'
 
+#henkou
