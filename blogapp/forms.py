@@ -35,3 +35,4 @@ class ContactForm(forms.Form):
         self.fields['message'].widget.attrs['class'] = 'form-control'
 
 #henkou
+##henkou
