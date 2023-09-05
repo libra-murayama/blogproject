@@ -4,3 +4,6 @@ from .models import BlogPost,Employee
 
 admin.site.register(BlogPost)
 admin.site.register(Employee)
+
+
+

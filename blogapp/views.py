@@ -134,6 +134,7 @@ class ContactView(FormView):
                                 )
         # EmailMessageクラスのsend()でメールサーバーからメールを送信
         message.send()
+        
         # 送信完了後に表示するメッセージ
         messages.success(
         self.request, 'お問い合わせは正常に送信されました。')
